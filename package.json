@@ -1,0 +1,19 @@
+{
+  "name": "automation-quipux-uco-2024-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-allure-reporter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^131.0.3",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
